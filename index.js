@@ -108,7 +108,7 @@ server.use((req, res) => {
 });
 
 // Démarrage du serveur
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT;
 server.listen(PORT, () => {
     console.log(`Le serveur tourne sur le port ${PORT}`);
 });
